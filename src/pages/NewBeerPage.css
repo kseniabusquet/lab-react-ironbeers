@@ -1,0 +1,17 @@
+.new-beer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    width: 200px;
+}
+
+input {
+    margin: 10px;
+}
+
+button {
+    margin: 0 auto;
+}
