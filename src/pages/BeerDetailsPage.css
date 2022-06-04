@@ -1,0 +1,11 @@
+.details-flex-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.beer-details-wrapper {
+    width: 30%;
+    margin: 3% auto;
+}

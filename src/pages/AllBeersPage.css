@@ -1,0 +1,29 @@
+.flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 15px;
+    border: 1px solid ;
+    text-decoration: none;
+    color: black;
+}
+
+.flex :hover {
+    color:purple;
+}
+
+img {
+    height: 200px;
+    
+}
+
+.image-wrapper{
+    display: flex;
+    justify-content: center;
+    width: 10%;
+}
+
+.text-wrapper {
+    width: 90%;
+}

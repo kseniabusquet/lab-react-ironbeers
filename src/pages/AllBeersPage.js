@@ -2,6 +2,7 @@ import axios from 'axios';
 import {useEffect, useState} from 'react'
 import {Link} from 'react-router-dom'
 import Header from '../components/Header';
+import './AllBeersPage.css'
 
 const AllBeersPage = () => {
 
@@ -20,7 +21,19 @@ return (
         <Header />
 
         {beers && beers.map(beer => {
-            <h1></h1>
+            return (
+            <Link to = {beer._id} key = {beer._id}className = 'flex'>
+                <div className = 'image-wrapper'>
+                <img src = {beer.image_url} alt = 'beer label'/>
+                </div>
+
+                <div className = 'text-wrapper'>
+                    <h2>{beer.name}</h2>
+                    <h3>{beer.tagline}</h3>
+                    <p>{beer.contributed_by} </p>
+                </div>
+            </Link>
+            )
         })}
     </div>
     )
