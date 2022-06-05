@@ -2,10 +2,41 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
 }
 
 .beer-details-wrapper {
     width: 30%;
     margin: 3% auto;
+}
+
+.beer-details-wrapper  > img {
+    display: block;
+    margin: 10px auto 50px auto;
+    width: auto;
+}
+
+.grey-text {
+    color: rgb(140, 136, 136);
+}
+
+h4{
+    font-size: 1rem;
+}
+
+.bold-text {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+h3 {
+    font-size: 1.3rem;
+    width: 250px;
+}
+
+h5 {
+    font-size: 1rem;
+}
+
+p {
+    margin-top: 10px;
 }

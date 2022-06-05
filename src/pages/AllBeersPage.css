@@ -27,3 +27,8 @@ img {
 .text-wrapper {
     width: 90%;
 }
+
+.tagline {
+    font-size: 1.3rem;
+    color: rgb(140, 136, 136);
+}

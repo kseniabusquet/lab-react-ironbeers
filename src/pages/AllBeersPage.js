@@ -29,8 +29,8 @@ return (
 
                 <div className = 'text-wrapper'>
                     <h2>{beer.name}</h2>
-                    <h3>{beer.tagline}</h3>
-                    <p>{beer.contributed_by} </p>
+                    <h3 className = 'tagline'>{beer.tagline}</h3>
+                    <p><b>Created by: </b>{beer.contributed_by} </p>
                 </div>
             </Link>
             )

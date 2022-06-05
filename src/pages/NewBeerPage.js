@@ -4,6 +4,7 @@ import './NewBeerPage.css'
 import axios from 'axios';
 import Button from 'react-bootstrap/Button';
 
+
 const NewBeerPage = () => {
 
     const [headline, setHeadline] = useState('')
@@ -115,10 +116,10 @@ const NewBeerPage = () => {
                     value = {contributor}
                     onChange = {(e) => setContributor(e.target.value)}/>
                 </div>
-            
 
-                <Button type="submit" variant = 'primary' size = 'lg'>Submit</Button>
-
+                <div className="btn-container">
+                    <Button type="submit" variant = 'primary' size = 'lg'>Submit</Button>
+                </div>
             </form>
         </div>
         </div>

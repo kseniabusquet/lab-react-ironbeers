@@ -1,3 +1,13 @@
 h1 {
     font-size: 2em;
 }
+
+.all-beers-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section-wrapper {
+    margin: 10px 0;
+}

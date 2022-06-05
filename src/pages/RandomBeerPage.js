@@ -15,8 +15,8 @@ const RandomBeerPage = () => {
     
         return (
             <div>
-            <Header />
-            <BeerInfo beer = {beer} />
+                <Header />
+                <BeerInfo beer = {beer} />
             </div>
         )
 }
